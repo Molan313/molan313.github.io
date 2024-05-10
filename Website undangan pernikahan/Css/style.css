@@ -1,0 +1,57 @@
+:root {
+    --blue: #0f627e;
+    --pink: #ff7878;
+    --bg: #000000;
+    --shadow: 0 2px 2px rgb(0 0 0 / .8);
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: "RocknRoll One", sans-serif;
+}
+
+.hero::before {
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url(/img/foto-pettine-IfjHaIoAoqE-unsplash\ \(2\).jpg);
+    background-position: 50% 80%;
+    filter:grayscale(100);
+    z-index: -1;
+}
+
+.hero {
+    position: relative;
+    min-height: 100vh; 
+}
+
+.hero h1, .hero h4, .hero p {
+    text-shadow: var(--shadow);
+}
+.hero h1 {
+    font-family: "Delicious Handrawn", cursive;
+    font-size: 6rem;
+}
+
+.hero h4 {
+    font-size: 1.4 rem;
+}
+
+.hero p {
+    font-size: 1.4rem;
+}
+
+.hero a {
+    color: var(--blue);
+    background-color: white;
+}
+
+.hero a:hover {
+    color: white;
+    background-color: var(--pink);
+}
+
+
