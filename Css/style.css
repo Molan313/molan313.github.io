@@ -6,7 +6,7 @@
 }
 
 body {
-    font-size: 1.2rem;
+    font-size: 0.7rem ;
     font-family: "RocknRoll One", sans-serif;
 }
 
@@ -37,8 +37,9 @@ body {
 }
 
 .hero h4 {
-    font-size: 1.4 rem;
+    font-size: 1.4rem;
 }
+
 
 .hero p {
     font-size: 1.4rem;
