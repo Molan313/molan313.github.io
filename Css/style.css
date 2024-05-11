@@ -171,16 +171,4 @@ body {
         padding: 35px;
         margin: 3px;
      }
-
-
-    .home {
-        background-image: url(/img/fotobg.jpg);
-        background-size: cover;
-        background-position: center;
-        min-height: 100vh;
-        max-width: fit-content;
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-    }
-
 }
