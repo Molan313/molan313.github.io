@@ -71,7 +71,7 @@ body {
 }
 
 /* tablet */
-@media (max-width: 768px){
+/* @media (max-width: 768px){
     html {
         font-size: 65%;
     }
@@ -81,7 +81,7 @@ body {
         margin: 3px;
      }
 
-}
+} */
 
 /* hp */
 /* @media (max-width: 576px){
