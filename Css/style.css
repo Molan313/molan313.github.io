@@ -86,11 +86,11 @@ body {
 /* hp */
 @media (max-width: 576px){
     html {
-        font-size: 60%;
+        font-size: 20%;
     }
 
     .simply-countdown > .simply-section {
-        padding: 40px;
+        padding: 10px;
         margin: 1px; 
      }
 
