@@ -59,7 +59,7 @@ body {
 /* Media query */
 
 /* laptop */
-@media (max-width:992px){
+/* @media (max-width:992px){
     html {
         font-size: 100%;
     }
@@ -68,7 +68,7 @@ body {
        padding: 75px; 
     }
 
-}
+} */
 
 /* tablet */
 /* @media (max-width: 768px){
