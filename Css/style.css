@@ -6,7 +6,7 @@
 }
 
 body {
-    font-size: 0.7rem ;
+    font-size: 1.4rem ;
     font-family: "RocknRoll One", sans-serif;
 }
 
@@ -17,7 +17,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image:url(/img/foto-pettine-IfjHaIoAoqE-unsplash\ \(2\).jpg);
+    background-image: url(/img/foto.jpg);
     background-position: 50% 80%;
     filter:grayscale(100);
     z-index: -1;
@@ -48,6 +48,7 @@ body {
 .hero a {
     color: var(--blue);
     background-color: white;
+    box-shadow: var(--shadow);
 }
 
 .hero a:hover {
@@ -55,4 +56,42 @@ body {
     background-color: var(--pink);
 }
 
+/* Media query */
 
+/* laptop */
+@media (max-width:992px){
+    html {
+        font-size: 100%;
+    }
+
+    .simply-countdown > .simply-section {
+       padding: 75px; 
+    }
+
+}
+
+/* tablet */
+@media (max-width: 768px){
+    html {
+        font-size: 65%;
+    }
+
+    .simply-countdown > .simply-section {
+        padding: 50px; 
+        margin: 5px;
+     }
+
+}
+
+/* hp */
+@media (max-width: 576px){
+    html {
+        font-size: 60%;
+    }
+
+    .simply-countdown > .simply-section {
+        padding: 45px;
+        margin: 5px; 
+     }
+
+}
