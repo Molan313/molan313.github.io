@@ -8,6 +8,7 @@
 body {
     font-size: 1.4rem ;
     font-family: "RocknRoll One", sans-serif;
+    min-height: 4000px;
 }
 
 .hero::before {
@@ -56,6 +57,50 @@ body {
     background-color: var(--pink);
 }
 
+.mynavbar {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    backdrop-filter: blur(4px);
+}
+
+.mynavbar .offcanvas {
+    height: 100vh;
+}
+
+.mynavbar .navbar-brand, .mynavbar .offcanvas-title {
+    font-family: "Delicious Handrawn", cursive;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.mynavbar .nav-link {
+    text-transform: uppercase;
+}
+
+.home {
+    background-image: url(/img/3129689_36816.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.home h2{
+    color: #ff7878;
+    font-family: "Delicious Handrawn";
+    font-size: 5rem;
+}
+
+.home h3 {
+    color:#444;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.home p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
 /* Media query */
 
 /* laptop */
@@ -82,6 +127,10 @@ body {
         margin: 5px;
      }
 
+     .mynavbar .nav-link {
+        font-size: 2rem;
+        text-align: center;
+    }
 }
 
 /* hp */
