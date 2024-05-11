@@ -61,11 +61,11 @@ body {
 /* laptop */
 @media (max-width:992px){
     html {
-        font-size: 70%;
+        font-size: 65%;
     }
 
     .simply-countdown > .simply-section {
-       padding: 50px;
+       padding: 45px;
        margin: 2px;
     }
 
