@@ -96,6 +96,7 @@ body {
      }
 }
 
+/* hp lebih kecil tes*/
 @media (max-width: 360px){
     html {
         font-size: 55%;
