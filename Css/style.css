@@ -61,12 +61,12 @@ body {
 /* laptop */
 @media (max-width:992px){
     html {
-        font-size: 65%;
+        font-size: 75%;
     }
 
     .simply-countdown > .simply-section {
-       padding: 45px;
-       margin: 2px;
+       padding: 70px;
+       margin: 10px;
     }
 
 }
@@ -78,8 +78,8 @@ body {
     }
 
     .simply-countdown > .simply-section {
-        padding: 45px; 
-        margin: 3px;
+        padding: 60px; 
+        margin: 5px;
      }
 
 }
@@ -91,7 +91,7 @@ body {
     }
 
     .simply-countdown > .simply-section {
-        padding: 40px;
+        padding: 45px;
         margin: 3px; 
      }
 
