@@ -79,6 +79,7 @@ body {
 .home {
     background-image: url(/img/3129689_36816.jpg);
     background-size: cover;
+    background-position: center;
     min-height: 100vh;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -99,6 +100,20 @@ body {
 .home p {
     font-size: 1.1rem;
     color: #666;
+}
+
+.row .couple {
+    margin-top: 100px;
+}
+
+.home .couple h3 {
+    font-family: "Delicious Handrawn";
+    font-size: 2.4rem;
+    color: var(--pink);
+}
+
+.home .couple img {
+    width: 100%;
 }
 
 /* Media query */
@@ -145,11 +160,8 @@ body {
      }
 }
 
-<<<<<<< HEAD
-/* hp kecil */
-=======
-/* hp lebih kecil*/
->>>>>>> 0e5b97f4934940af3f42e2e81a52486b358d27e8
+
+/*hp lebih kecil*/
 @media (max-width: 360px){
     html {
         font-size: 55%;
