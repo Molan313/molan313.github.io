@@ -145,11 +145,7 @@ body {
      }
 }
 
-<<<<<<< HEAD
-/* hp kecil */
-=======
-/* hp lebih kecil*/
->>>>>>> 0e5b97f4934940af3f42e2e81a52486b358d27e8
+/*hp lebih kecil*/
 @media (max-width: 360px){
     html {
         font-size: 55%;
