@@ -59,19 +59,20 @@ body {
 /* Media query */
 
 /* laptop */
-/* @media (max-width:992px){
+@media (max-width:992px){
     html {
         font-size: 100%;
     }
 
     .simply-countdown > .simply-section {
-       padding: 75px; 
+       padding: 60px;
+       margin: 5px;
     }
 
-} */
+}
 
 /* tablet */
-/* @media (max-width: 768px){
+@media (max-width: 768px){
     html {
         font-size: 65%;
     }
@@ -81,10 +82,10 @@ body {
         margin: 3px;
      }
 
-} */
+}
 
 /* hp */
-/* @media (max-width: 576px){
+@media (max-width: 576px){
     html {
         font-size: 60%;
     }
@@ -94,4 +95,4 @@ body {
         margin: 3px; 
      }
 
-} */
+}
