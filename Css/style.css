@@ -79,7 +79,7 @@ body {
 
     .simply-countdown > .simply-section {
         padding: 65px; 
-        margin: 8px;
+        margin: 5px;
      }
 
 }
@@ -93,6 +93,5 @@ body {
     .simply-countdown > .simply-section {
         padding: 45px;
         margin: 3px;
-        margin: auto;
      }
 }
