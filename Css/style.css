@@ -1,5 +1,5 @@
 :root {
-    --blue: #0f627e;
+    --blue: #263864;
     --pink: #ff7878;
     --bg: #000000;
     --shadow: 0 2px 2px rgb(0 0 0 / .8);
@@ -59,6 +59,7 @@ body {
 
 .mynavbar {
     background-color: rgba(255, 255, 255, 0.3) !important;
+    backdrop-filter: blur(2px);    
 }
 
 .mynavbar .offcanvas {
@@ -115,7 +116,73 @@ body {
     width: 100%;
 }
 
+.home .heart {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(65px);
+}
+
+.home .heart i {
+    margin: auto;
+}
+
+.info {
+    background-color: var(--blue);
+    color: white;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.info h2 {
+    color: pink;
+    font-family: "Delicious Handrawn";
+    font-size: 5rem;
+}
+
+.info .alamat {
+    font-size: 1.1rem;
+}
+
+.info .description {
+    padding-top: 10px;
+    font-size: 1rem;
+} 
+
+.info .card {
+    background-color: rgba(225, 225, 225, 0.2) !important;
+    color: white !important;
+    border: 2px solid wheat;
+}
+
+.info .card-header {
+    border-bottom: 2px solid wheat;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.info .card-body {
+    font-size: 1rem;
+}
+
+.info .card-footer {
+    border-top: 2px solid wheat;
+    font-size: 1rem;
+}
 /* Media query */
+
+/* Extra large */
+
+@media (max-width:1200px){
+    .home .heart i {
+        transform: translateX(-50%) translateY(45px);
+    }
+}
 
 /* laptop */
 @media (max-width:992px){
@@ -128,6 +195,9 @@ body {
        margin: 10px;
     }
 
+    .home .heart{
+        display: none;
+    }
 }
 
 /* tablet */
@@ -141,9 +211,16 @@ body {
         margin: 5px;
      }
 
-     .mynavbar .nav-link {
+    .mynavbar .nav-link {
         font-size: 2rem;
         text-align: center;
+    }
+
+    .sticky-top {
+        overflow: hidden;
+    }
+    .home .heart{
+        display: none;
     }
 }
 
@@ -157,6 +234,10 @@ body {
         padding: 45px;
         margin: 3px;
      }
+
+     .home .heart{
+        display: none;
+    }
 }
 
 
@@ -176,4 +257,7 @@ body {
         text-align: center;
     }
 
+    .home .heart i {
+        display: none;
+    }
 }
