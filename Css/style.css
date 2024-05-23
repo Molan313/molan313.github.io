@@ -1,6 +1,8 @@
 :root {
     --blue: #263864;
-    --pink: #ff7878;
+    --pink: #fcadad;
+    --lpink: rgb(255, 228, 228);
+    --lblue: rgb(74, 117, 166);
     --bg: #000000;
     --shadow: 0 2px 2px rgb(0 0 0 / .8);
 }
@@ -85,7 +87,7 @@ body {
     padding-bottom: 5rem;
 }
 
-.home h2, .info h2, .story h2, .gallery h2, .rsvp h2{
+.home h2, .info h2, .story h2, .gallery h2, .rsvp h2, .gifts h2{
     color: var(--pink);
     font-family: "Delicious Handrawn";
     font-size: 5rem;
@@ -132,15 +134,15 @@ body {
     margin: auto;
 }
 
-.info {
-    background-color: var(--blue);
+.info, .gifts {
+    background-color: var(--lblue);
     color: white;
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
 
 .info h2 {
-    color: pink;
+    color: var(--pink);
     font-family: "Delicious Handrawn";
     font-size: 5rem;
 }
@@ -175,22 +177,34 @@ body {
     font-size: 1rem;
 }
 
-.story, .gallery {
+.story, .gallery, .gifts{
     padding-top: 10rem;
     padding-bottom: 8rem;
 }
 
-.story span, .gallery span, .rsvp{
+.story {
+    background-color: var(--lpink);
+}
+
+.story span, .gallery span, .rsvp span, .gifts span{
     text-transform: uppercase;
-    color: #666;
+    color: white;
     font-size: 0.9rem;
     letter-spacing: 1px;
     display: block;
     margin-bottom: 1rem;
 }
 
-.story p, .gallery p, .rsvp p{
+.story span, .rsvp span{
+    color: black;
+}
+
+.story p, .gallery p, .rsvp p, .gifts p{
     font-size: 1rem;
+}
+
+.gallery p{
+    color: white;
 }
 
 .timeline {
@@ -206,7 +220,7 @@ body {
     bottom: 0;
     position:absolute;
     width: 1px;
-    background-color: #ccc;
+    background-color: #000000;
     left: 50%;
 }
 
@@ -272,7 +286,6 @@ body {
 }
 
 .timeline li.timeline-inverted .timeline-panel {
-    width: 40%;
     float: right;
     border: 1px solid #ccc;
     background-color: white;
@@ -295,24 +308,28 @@ body {
     right: auto;
 }
 
+
 .gallery {
-    background-color: #f2f5ff
+    background-color: var(--lblue)
 }
 
 .rsvp {
-    background-color: var(--blue);
+    background-color: var(--lpink);
+    padding-bottom: 6rem;
+    padding-top: 60px;
 }
 
 .rsvp h2 {
     font-size: 4.5rem;
+    color: var(--pink);
 }
 
 .rsvp p {
-    color: white;
+    color: black;
 }
 
 .rsvp form label {
-    color: white;
+    color: black;
 }
 
 .rsvp button {
@@ -327,6 +344,26 @@ body {
     border: 1px solid white;
 }
 
+footer {
+    padding: 1rem;
+    background-color: var(--pink);
+}
+
+footer a{
+    color: var(--bg);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+    margin: 0.5rem;
+}
+
 /* Media query */
 
 /* Extra large */
@@ -335,6 +372,7 @@ body {
     .home .heart i {
         transform: translateX(-50%) translateY(45px);
     }
+
 }
 
 /* laptop */
@@ -466,4 +504,5 @@ body {
     .home .heart i {
         display: none;
     }
+
 }
